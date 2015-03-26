@@ -15,7 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        setApparence()
         return true
+    }
+    
+    // MARK: - Apparence
+    
+    func setApparence() {
+        let navigationBarApparence = UINavigationBar.appearance()
+        navigationBarApparence.tintColor = Colors.green()
     }
 
 }

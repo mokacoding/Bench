@@ -24,8 +24,8 @@ class ViewController: UIViewController {
     
     func setColors() {
         titleLabel.textColor = UIColor(red:0.51, green:0.51, blue:0.51, alpha:1)
-        sayHelloButton.setTitleColor(UIColor(red:0.15, green:0.68, blue:0.38, alpha:1), forState: .Normal)
-        showStuffButton.setTitleColor(UIColor(red:0.15, green:0.68, blue:0.38, alpha:1), forState: .Normal)
+        sayHelloButton.setTitleColor(Colors.green(), forState: .Normal)
+        showStuffButton.setTitleColor(Colors.green(), forState: .Normal)
         footerLabel.textColor = UIColor(red:0.66, green:0.66, blue:0.73, alpha:1)
     }
 
