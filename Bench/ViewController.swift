@@ -10,16 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var sayHelloButton: UIButton!
+    @IBOutlet weak var showStuffButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        titleLabel.textColor = UIColor(red:0.51, green:0.51, blue:0.51, alpha:1)
+        sayHelloButton.titleLabel?.textColor = UIColor(red:0.15, green:0.68, blue:0.38, alpha:1)
+        showStuffButton.titleLabel?.textColor = UIColor(red:0.15, green:0.68, blue:0.38, alpha:1)
     }
-
 
 }
 
