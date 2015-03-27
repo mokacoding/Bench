@@ -15,7 +15,7 @@
 		6EADCDB21AC48CD800E041E4 /* BenchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCDB11AC48CD800E041E4 /* BenchTests.swift */; };
 		6EADCDBC1AC4972C00E041E4 /* ElementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCDBB1AC4972C00E041E4 /* ElementsViewController.swift */; };
 		6EADCDC01AC4A32300E041E4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCDBF1AC4A32300E041E4 /* Colors.swift */; };
-		6EADCE161AC5425700E041E4 /* BenchKIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCE151AC5425700E041E4 /* BenchKIF.m */; };
+		6EADCE161AC5425700E041E4 /* MainScreenTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCE151AC5425700E041E4 /* MainScreenTest.m */; };
 		A13AA54E4731746C50A1BAF2 /* libPods-BenchKIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8111BF74C4BB1028E6FB5F9 /* libPods-BenchKIF.a */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +52,7 @@
 		6EADCDBF1AC4A32300E041E4 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		6EADCE111AC5425700E041E4 /* BenchKIF.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenchKIF.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EADCE141AC5425700E041E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EADCE151AC5425700E041E4 /* BenchKIF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenchKIF.m; sourceTree = "<group>"; };
+		6EADCE151AC5425700E041E4 /* MainScreenTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainScreenTest.m; sourceTree = "<group>"; };
 		F8111BF74C4BB1028E6FB5F9 /* libPods-BenchKIF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BenchKIF.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5D2DE4225C2A9F2F33C01D /* Pods-BenchKIF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenchKIF.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BenchKIF/Pods-BenchKIF.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,7 +151,7 @@
 		6EADCE121AC5425700E041E4 /* BenchKIF */ = {
 			isa = PBXGroup;
 			children = (
-				6EADCE151AC5425700E041E4 /* BenchKIF.m */,
+				6EADCE151AC5425700E041E4 /* MainScreenTest.m */,
 				6EADCE131AC5425700E041E4 /* Supporting Files */,
 			);
 			path = BenchKIF;
@@ -396,7 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EADCE161AC5425700E041E4 /* BenchKIF.m in Sources */,
+				6EADCE161AC5425700E041E4 /* MainScreenTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
