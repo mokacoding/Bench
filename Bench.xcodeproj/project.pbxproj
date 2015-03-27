@@ -15,10 +15,18 @@
 		6EADCDB21AC48CD800E041E4 /* BenchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCDB11AC48CD800E041E4 /* BenchTests.swift */; };
 		6EADCDBC1AC4972C00E041E4 /* ElementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCDBB1AC4972C00E041E4 /* ElementsViewController.swift */; };
 		6EADCDC01AC4A32300E041E4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCDBF1AC4A32300E041E4 /* Colors.swift */; };
+		6EADCE161AC5425700E041E4 /* BenchKIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCE151AC5425700E041E4 /* BenchKIF.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		6EADCDAC1AC48CD800E041E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EADCD8E1AC48CD800E041E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EADCD951AC48CD800E041E4;
+			remoteInfo = Bench;
+		};
+		6EADCE171AC5425700E041E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6EADCD8E1AC48CD800E041E4 /* Project object */;
 			proxyType = 1;
@@ -40,6 +48,9 @@
 		6EADCDB11AC48CD800E041E4 /* BenchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchTests.swift; sourceTree = "<group>"; };
 		6EADCDBB1AC4972C00E041E4 /* ElementsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementsViewController.swift; sourceTree = "<group>"; };
 		6EADCDBF1AC4A32300E041E4 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		6EADCE111AC5425700E041E4 /* BenchKIF.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenchKIF.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EADCE141AC5425700E041E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EADCE151AC5425700E041E4 /* BenchKIF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenchKIF.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +68,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6EADCE0E1AC5425700E041E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +83,7 @@
 			children = (
 				6EADCD981AC48CD800E041E4 /* Bench */,
 				6EADCDAE1AC48CD800E041E4 /* BenchTests */,
+				6EADCE121AC5425700E041E4 /* BenchKIF */,
 				6EADCD971AC48CD800E041E4 /* Products */,
 			);
 			indentWidth = 4;
@@ -77,6 +96,7 @@
 			children = (
 				6EADCD961AC48CD800E041E4 /* Bench.app */,
 				6EADCDAB1AC48CD800E041E4 /* BenchTests.xctest */,
+				6EADCE111AC5425700E041E4 /* BenchKIF.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +141,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6EADCE121AC5425700E041E4 /* BenchKIF */ = {
+			isa = PBXGroup;
+			children = (
+				6EADCE151AC5425700E041E4 /* BenchKIF.m */,
+				6EADCE131AC5425700E041E4 /* Supporting Files */,
+			);
+			path = BenchKIF;
+			sourceTree = "<group>";
+		};
+		6EADCE131AC5425700E041E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EADCE141AC5425700E041E4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,6 +198,24 @@
 			productReference = 6EADCDAB1AC48CD800E041E4 /* BenchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		6EADCE101AC5425700E041E4 /* BenchKIF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EADCE1B1AC5425700E041E4 /* Build configuration list for PBXNativeTarget "BenchKIF" */;
+			buildPhases = (
+				6EADCE0D1AC5425700E041E4 /* Sources */,
+				6EADCE0E1AC5425700E041E4 /* Frameworks */,
+				6EADCE0F1AC5425700E041E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EADCE181AC5425700E041E4 /* PBXTargetDependency */,
+			);
+			name = BenchKIF;
+			productName = BenchKIF;
+			productReference = 6EADCE111AC5425700E041E4 /* BenchKIF.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -174,6 +229,10 @@
 						CreatedOnToolsVersion = 6.2;
 					};
 					6EADCDAA1AC48CD800E041E4 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 6EADCD951AC48CD800E041E4;
+					};
+					6EADCE101AC5425700E041E4 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 6EADCD951AC48CD800E041E4;
 					};
@@ -194,6 +253,7 @@
 			targets = (
 				6EADCD951AC48CD800E041E4 /* Bench */,
 				6EADCDAA1AC48CD800E041E4 /* BenchTests */,
+				6EADCE101AC5425700E041E4 /* BenchKIF */,
 			);
 		};
 /* End PBXProject section */
@@ -210,6 +270,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6EADCDA91AC48CD800E041E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EADCE0F1AC5425700E041E4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,6 +336,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6EADCE0D1AC5425700E041E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EADCE161AC5425700E041E4 /* BenchKIF.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -276,6 +351,11 @@
 			isa = PBXTargetDependency;
 			target = 6EADCD951AC48CD800E041E4 /* Bench */;
 			targetProxy = 6EADCDAC1AC48CD800E041E4 /* PBXContainerItemProxy */;
+		};
+		6EADCE181AC5425700E041E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EADCD951AC48CD800E041E4 /* Bench */;
+			targetProxy = 6EADCE171AC5425700E041E4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -465,6 +545,42 @@
 			};
 			name = Release;
 		};
+		6EADCE191AC5425700E041E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = BenchKIF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bench.app/Bench";
+			};
+			name = Debug;
+		};
+		6EADCE1A1AC5425700E041E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = BenchKIF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bench.app/Bench";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -494,6 +610,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		6EADCE1B1AC5425700E041E4 /* Build configuration list for PBXNativeTarget "BenchKIF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EADCE191AC5425700E041E4 /* Debug */,
+				6EADCE1A1AC5425700E041E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
