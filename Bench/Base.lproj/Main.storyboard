@@ -47,7 +47,7 @@
                                             <constraint firstAttribute="width" constant="200" id="itB-Ze-9lO"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="show element">
+                                        <state key="normal" title="show elements">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
