@@ -22,6 +22,6 @@ struct Colors {
     }
     
     static func white() -> UIColor {
-        return UIColor(red:0.15, green:0.68, blue:0.38, alpha:1)
+        return UIColor.whiteColor()
     }
 }

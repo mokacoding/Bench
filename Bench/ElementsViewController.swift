@@ -17,8 +17,6 @@ class ElementsViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         tableView.dataSource = self
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: cellIdentifier)
-        
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Close", style: .Plain, target: self, action: "dismiss")
     }
     
     // MARK: - UITableViewDataSource
@@ -35,12 +33,6 @@ class ElementsViewController: UIViewController, UITableViewDataSource {
         let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as UITableViewCell
         cell.textLabel?.text = elements[indexPath.row]
         return cell
-    }
-    
-    // MARK: - Dismiss
-    
-    func dismiss() {
-        self.presentingViewController?.dismissViewControllerAnimated(true, completion: nil)
     }
     
     // MARKY - Elements

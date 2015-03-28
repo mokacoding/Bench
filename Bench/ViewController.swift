@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var sayHelloButton: UIButton!
     @IBOutlet weak var showStuffButton: UIButton!
     @IBOutlet weak var footerLabel: UILabel!
@@ -23,7 +22,6 @@ class ViewController: UIViewController {
     }
     
     func setColors() {
-        titleLabel.textColor = UIColor(red:0.51, green:0.51, blue:0.51, alpha:1)
         sayHelloButton.setTitleColor(Colors.green(), forState: .Normal)
         showStuffButton.setTitleColor(Colors.green(), forState: .Normal)
         footerLabel.textColor = UIColor(red:0.66, green:0.66, blue:0.73, alpha:1)

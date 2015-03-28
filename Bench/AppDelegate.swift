@@ -23,7 +23,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func setApparence() {
         let navigationBarApparence = UINavigationBar.appearance()
-        navigationBarApparence.tintColor = Colors.green()
+        navigationBarApparence.barTintColor = Colors.green()
+        navigationBarApparence.tintColor = Colors.white()
+        navigationBarApparence.titleTextAttributes = [
+            NSForegroundColorAttributeName: Colors.white()
+        ]
     }
 
 }
