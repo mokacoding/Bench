@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2047D35340F95E491DCCC757 /* libPods-BenchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C995115E505E9BD825293991 /* libPods-BenchTests.a */; };
 		3FB6F09D1ADB189800F38D63 /* ElementFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6F09C1ADB189800F38D63 /* ElementFormatter.m */; };
-		3FB6F09F1ADB190100F38D63 /* ElementFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6F09E1ADB190100F38D63 /* ElementFormatterTests.m */; };
+		3FB6F09F1ADB190100F38D63 /* ElementFormatterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6F09E1ADB190100F38D63 /* ElementFormatterSpec.m */; };
 		3FB6F0A11ADB268F00F38D63 /* periodic_table.json in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6F0A01ADB268F00F38D63 /* periodic_table.json */; };
 		6EADCD9C1AC48CD800E041E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCD9B1AC48CD800E041E4 /* AppDelegate.swift */; };
 		6EADCD9E1AC48CD800E041E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCD9D1AC48CD800E041E4 /* ViewController.swift */; };
@@ -46,7 +46,7 @@
 		3FB6F0971ADB186000F38D63 /* Bench-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bench-Bridging-Header.h"; sourceTree = "<group>"; };
 		3FB6F09B1ADB189800F38D63 /* ElementFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementFormatter.h; sourceTree = "<group>"; };
 		3FB6F09C1ADB189800F38D63 /* ElementFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementFormatter.m; sourceTree = "<group>"; };
-		3FB6F09E1ADB190100F38D63 /* ElementFormatterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementFormatterTests.m; sourceTree = "<group>"; };
+		3FB6F09E1ADB190100F38D63 /* ElementFormatterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementFormatterSpec.m; sourceTree = "<group>"; };
 		3FB6F0A01ADB268F00F38D63 /* periodic_table.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = periodic_table.json; sourceTree = "<group>"; };
 		6EADCD961AC48CD800E041E4 /* Bench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bench.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EADCD9A1AC48CD800E041E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -150,7 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				6EADCDAF1AC48CD800E041E4 /* Supporting Files */,
-				3FB6F09E1ADB190100F38D63 /* ElementFormatterTests.m */,
+				3FB6F09E1ADB190100F38D63 /* ElementFormatterSpec.m */,
 			);
 			path = BenchTests;
 			sourceTree = "<group>";
@@ -440,7 +440,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FB6F09F1ADB190100F38D63 /* ElementFormatterTests.m in Sources */,
+				3FB6F09F1ADB190100F38D63 /* ElementFormatterSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
