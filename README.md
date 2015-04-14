@@ -11,6 +11,7 @@ _I haven't decided yet what's the best way to keep this repo in order, whether w
 ## Articles
 
 * [Setting up KIF for iOS acceptance testing](http://www.mokacoding.com/blog/setting-up-kif-for-ios-acceptance-testing/) _2015-03-31_.
+* [Betters tests with Specta](http://www.mokacoding.com/blog/better-tests-with-specta/)
 
 ## About
 
