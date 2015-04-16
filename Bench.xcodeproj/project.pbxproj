@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2047D35340F95E491DCCC757 /* libPods-BenchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C995115E505E9BD825293991 /* libPods-BenchTests.a */; };
+		3FB292931ADFD1BC003B2728 /* MainScreenSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB292921ADFD1BC003B2728 /* MainScreenSpec.m */; };
 		3FB6F09D1ADB189800F38D63 /* ElementFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6F09C1ADB189800F38D63 /* ElementFormatter.m */; };
 		3FB6F09F1ADB190100F38D63 /* ElementFormatterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6F09E1ADB190100F38D63 /* ElementFormatterSpec.m */; };
 		3FB6F0A11ADB268F00F38D63 /* periodic_table.json in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6F0A01ADB268F00F38D63 /* periodic_table.json */; };
@@ -43,6 +44,7 @@
 		0128A771684DCAD503661806 /* Pods-BenchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BenchTests/Pods-BenchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2EC573117DC09CE6F71418FD /* Pods-BenchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BenchTests/Pods-BenchTests.release.xcconfig"; sourceTree = "<group>"; };
 		37E869D18D5E2EC428EB4DBE /* Pods-BenchKIF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenchKIF.release.xcconfig"; path = "Pods/Target Support Files/Pods-BenchKIF/Pods-BenchKIF.release.xcconfig"; sourceTree = "<group>"; };
+		3FB292921ADFD1BC003B2728 /* MainScreenSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenSpec.m; sourceTree = "<group>"; };
 		3FB6F0971ADB186000F38D63 /* Bench-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bench-Bridging-Header.h"; sourceTree = "<group>"; };
 		3FB6F09B1ADB189800F38D63 /* ElementFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementFormatter.h; sourceTree = "<group>"; };
 		3FB6F09C1ADB189800F38D63 /* ElementFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementFormatter.m; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				6EADCE151AC5425700E041E4 /* MainScreenTest.m */,
+				3FB292921ADFD1BC003B2728 /* MainScreenSpec.m */,
 				6EADCE131AC5425700E041E4 /* Supporting Files */,
 			);
 			path = BenchKIF;
@@ -449,6 +452,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EADCE161AC5425700E041E4 /* MainScreenTest.m in Sources */,
+				3FB292931ADFD1BC003B2728 /* MainScreenSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
