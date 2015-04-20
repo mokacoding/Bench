@@ -10,4 +10,5 @@ end
 
 target 'BenchKIF', exclusive: true do
   pod 'KIF', '~> 3.2.0'
+  pod 'Specta', '~> 0.5.0'
 end
