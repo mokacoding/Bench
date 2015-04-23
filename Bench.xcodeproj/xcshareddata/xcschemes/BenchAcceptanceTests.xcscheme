@@ -20,6 +20,20 @@
                ReferencedContainer = "container:Bench.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3F822F5D1AE8FA870001ACFA"
+               BuildableName = "BenchKIFSwift.xctest"
+               BlueprintName = "BenchKIFSwift"
+               ReferencedContainer = "container:Bench.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -35,6 +49,16 @@
                BlueprintIdentifier = "6EADCE101AC5425700E041E4"
                BuildableName = "BenchKIF.xctest"
                BlueprintName = "BenchKIF"
+               ReferencedContainer = "container:Bench.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3F822F5D1AE8FA870001ACFA"
+               BuildableName = "BenchKIFSwift.xctest"
+               BlueprintName = "BenchKIFSwift"
                ReferencedContainer = "container:Bench.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -76,15 +100,6 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6EADCE101AC5425700E041E4"
-            BuildableName = "BenchKIF.xctest"
-            BlueprintName = "BenchKIF"
-            ReferencedContainer = "container:Bench.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

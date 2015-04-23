@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2047D35340F95E491DCCC757 /* libPods-BenchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C995115E505E9BD825293991 /* libPods-BenchTests.a */; };
+		3F822F631AE8FA870001ACFA /* BenchKIFSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F822F621AE8FA870001ACFA /* BenchKIFSwift.swift */; };
 		3FB292931ADFD1BC003B2728 /* MainScreenSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB292921ADFD1BC003B2728 /* MainScreenSpec.m */; };
 		3FB6F09D1ADB189800F38D63 /* ElementFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6F09C1ADB189800F38D63 /* ElementFormatter.m */; };
 		3FB6F09F1ADB190100F38D63 /* ElementFormatterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6F09E1ADB190100F38D63 /* ElementFormatterSpec.m */; };
@@ -24,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3F822F641AE8FA870001ACFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EADCD8E1AC48CD800E041E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EADCD951AC48CD800E041E4;
+			remoteInfo = Bench;
+		};
 		6EADCDAC1AC48CD800E041E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6EADCD8E1AC48CD800E041E4 /* Project object */;
@@ -44,6 +52,9 @@
 		0128A771684DCAD503661806 /* Pods-BenchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BenchTests/Pods-BenchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2EC573117DC09CE6F71418FD /* Pods-BenchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BenchTests/Pods-BenchTests.release.xcconfig"; sourceTree = "<group>"; };
 		37E869D18D5E2EC428EB4DBE /* Pods-BenchKIF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenchKIF.release.xcconfig"; path = "Pods/Target Support Files/Pods-BenchKIF/Pods-BenchKIF.release.xcconfig"; sourceTree = "<group>"; };
+		3F822F5E1AE8FA870001ACFA /* BenchKIFSwift.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenchKIFSwift.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F822F611AE8FA870001ACFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F822F621AE8FA870001ACFA /* BenchKIFSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchKIFSwift.swift; sourceTree = "<group>"; };
 		3FB292921ADFD1BC003B2728 /* MainScreenSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenSpec.m; sourceTree = "<group>"; };
 		3FB6F0971ADB186000F38D63 /* Bench-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bench-Bridging-Header.h"; sourceTree = "<group>"; };
 		3FB6F09B1ADB189800F38D63 /* ElementFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementFormatter.h; sourceTree = "<group>"; };
@@ -70,6 +81,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3F822F5B1AE8FA870001ACFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EADCD931AC48CD800E041E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -96,12 +114,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F822F5F1AE8FA870001ACFA /* BenchKIFSwift */ = {
+			isa = PBXGroup;
+			children = (
+				3F822F621AE8FA870001ACFA /* BenchKIFSwift.swift */,
+				3F822F601AE8FA870001ACFA /* Supporting Files */,
+			);
+			path = BenchKIFSwift;
+			sourceTree = "<group>";
+		};
+		3F822F601AE8FA870001ACFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F822F611AE8FA870001ACFA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		6EADCD8D1AC48CD800E041E4 = {
 			isa = PBXGroup;
 			children = (
 				6EADCD981AC48CD800E041E4 /* Bench */,
 				6EADCDAE1AC48CD800E041E4 /* BenchTests */,
 				6EADCE121AC5425700E041E4 /* BenchKIF */,
+				3F822F5F1AE8FA870001ACFA /* BenchKIFSwift */,
 				6EADCD971AC48CD800E041E4 /* Products */,
 				F98BC27EA39ABD73DD46B35F /* Pods */,
 				CAB4C1CDD261C60A9BA11433 /* Frameworks */,
@@ -117,6 +153,7 @@
 				6EADCD961AC48CD800E041E4 /* Bench.app */,
 				6EADCDAB1AC48CD800E041E4 /* BenchTests.xctest */,
 				6EADCE111AC5425700E041E4 /* BenchKIF.xctest */,
+				3F822F5E1AE8FA870001ACFA /* BenchKIFSwift.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,6 +243,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3F822F5D1AE8FA870001ACFA /* BenchKIFSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F822F681AE8FA870001ACFA /* Build configuration list for PBXNativeTarget "BenchKIFSwift" */;
+			buildPhases = (
+				3F822F5A1AE8FA870001ACFA /* Sources */,
+				3F822F5B1AE8FA870001ACFA /* Frameworks */,
+				3F822F5C1AE8FA870001ACFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F822F651AE8FA870001ACFA /* PBXTargetDependency */,
+			);
+			name = BenchKIFSwift;
+			productName = BenchKIFSwift;
+			productReference = 3F822F5E1AE8FA870001ACFA /* BenchKIFSwift.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		6EADCD951AC48CD800E041E4 /* Bench */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EADCDB51AC48CD800E041E4 /* Build configuration list for PBXNativeTarget "Bench" */;
@@ -274,6 +329,10 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = mokacoding;
 				TargetAttributes = {
+					3F822F5D1AE8FA870001ACFA = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 6EADCD951AC48CD800E041E4;
+					};
 					6EADCD951AC48CD800E041E4 = {
 						CreatedOnToolsVersion = 6.2;
 					};
@@ -303,11 +362,19 @@
 				6EADCD951AC48CD800E041E4 /* Bench */,
 				6EADCDAA1AC48CD800E041E4 /* BenchTests */,
 				6EADCE101AC5425700E041E4 /* BenchKIF */,
+				3F822F5D1AE8FA870001ACFA /* BenchKIFSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3F822F5C1AE8FA870001ACFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EADCD941AC48CD800E041E4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,6 +494,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F822F5A1AE8FA870001ACFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F822F631AE8FA870001ACFA /* BenchKIFSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EADCD921AC48CD800E041E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -459,6 +534,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3F822F651AE8FA870001ACFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EADCD951AC48CD800E041E4 /* Bench */;
+			targetProxy = 3F822F641AE8FA870001ACFA /* PBXContainerItemProxy */;
+		};
 		6EADCDAD1AC48CD800E041E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6EADCD951AC48CD800E041E4 /* Bench */;
@@ -491,6 +571,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3F822F661AE8FA870001ACFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = BenchKIFSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bench.app/Bench";
+			};
+			name = Debug;
+		};
+		3F822F671AE8FA870001ACFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = BenchKIFSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bench.app/Bench";
+			};
+			name = Release;
+		};
 		6EADCDB31AC48CD800E041E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -705,6 +827,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F822F681AE8FA870001ACFA /* Build configuration list for PBXNativeTarget "BenchKIFSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F822F661AE8FA870001ACFA /* Debug */,
+				3F822F671AE8FA870001ACFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		6EADCD911AC48CD800E041E4 /* Build configuration list for PBXProject "Bench" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
