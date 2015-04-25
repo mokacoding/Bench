@@ -1,1 +1,1 @@
-#import <KIF/KIF.h>
+@import KIF;
