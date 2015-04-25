@@ -21,6 +21,7 @@
 		6EADCDBC1AC4972C00E041E4 /* ElementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCDBB1AC4972C00E041E4 /* ElementsViewController.swift */; };
 		6EADCDC01AC4A32300E041E4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCDBF1AC4A32300E041E4 /* Colors.swift */; };
 		6EADCE161AC5425700E041E4 /* MainScreenTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCE151AC5425700E041E4 /* MainScreenTest.m */; };
+		8E66A69D94FFBEE0B9669E39 /* Pods_BenchKIFSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6558B6818A4E2EC173A7A0B4 /* Pods_BenchKIFSwift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A13AA54E4731746C50A1BAF2 /* libPods-BenchKIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8111BF74C4BB1028E6FB5F9 /* libPods-BenchKIF.a */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		0128A771684DCAD503661806 /* Pods-BenchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BenchTests/Pods-BenchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D2BCDB1D83264EBE451B649 /* Pods-BenchKIFSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenchKIFSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BenchKIFSwift/Pods-BenchKIFSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		2EC573117DC09CE6F71418FD /* Pods-BenchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BenchTests/Pods-BenchTests.release.xcconfig"; sourceTree = "<group>"; };
 		37E869D18D5E2EC428EB4DBE /* Pods-BenchKIF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenchKIF.release.xcconfig"; path = "Pods/Target Support Files/Pods-BenchKIF/Pods-BenchKIF.release.xcconfig"; sourceTree = "<group>"; };
 		3F822F5E1AE8FA870001ACFA /* BenchKIFSwift.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenchKIFSwift.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +63,7 @@
 		3FB6F09C1ADB189800F38D63 /* ElementFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementFormatter.m; sourceTree = "<group>"; };
 		3FB6F09E1ADB190100F38D63 /* ElementFormatterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementFormatterSpec.m; sourceTree = "<group>"; };
 		3FB6F0A01ADB268F00F38D63 /* periodic_table.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = periodic_table.json; sourceTree = "<group>"; };
+		6558B6818A4E2EC173A7A0B4 /* Pods_BenchKIFSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BenchKIFSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EADCD961AC48CD800E041E4 /* Bench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bench.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EADCD9A1AC48CD800E041E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EADCD9B1AC48CD800E041E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +79,7 @@
 		6EADCE141AC5425700E041E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EADCE151AC5425700E041E4 /* MainScreenTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainScreenTest.m; sourceTree = "<group>"; };
 		C995115E505E9BD825293991 /* libPods-BenchTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BenchTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C798EB6D541B0F37025878 /* Pods-BenchKIFSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenchKIFSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-BenchKIFSwift/Pods-BenchKIFSwift.release.xcconfig"; sourceTree = "<group>"; };
 		F8111BF74C4BB1028E6FB5F9 /* libPods-BenchKIF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BenchKIF.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5D2DE4225C2A9F2F33C01D /* Pods-BenchKIF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenchKIF.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BenchKIF/Pods-BenchKIF.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E66A69D94FFBEE0B9669E39 /* Pods_BenchKIFSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +230,7 @@
 			children = (
 				F8111BF74C4BB1028E6FB5F9 /* libPods-BenchKIF.a */,
 				C995115E505E9BD825293991 /* libPods-BenchTests.a */,
+				6558B6818A4E2EC173A7A0B4 /* Pods_BenchKIFSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -236,6 +242,8 @@
 				37E869D18D5E2EC428EB4DBE /* Pods-BenchKIF.release.xcconfig */,
 				0128A771684DCAD503661806 /* Pods-BenchTests.debug.xcconfig */,
 				2EC573117DC09CE6F71418FD /* Pods-BenchTests.release.xcconfig */,
+				0D2BCDB1D83264EBE451B649 /* Pods-BenchKIFSwift.debug.xcconfig */,
+				D4C798EB6D541B0F37025878 /* Pods-BenchKIFSwift.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -247,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F822F681AE8FA870001ACFA /* Build configuration list for PBXNativeTarget "BenchKIFSwift" */;
 			buildPhases = (
+				4FE73AFBCF52F86EF062EE7F /* Check Pods Manifest.lock */,
 				3F822F5A1AE8FA870001ACFA /* Sources */,
 				3F822F5B1AE8FA870001ACFA /* Frameworks */,
 				3F822F5C1AE8FA870001ACFA /* Resources */,
+				D592355051D5E28553CF31B2 /* Embed Pods Frameworks */,
+				0CE5DA2D783E21DD31E32481 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -418,6 +429,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		0CE5DA2D783E21DD31E32481 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BenchKIFSwift/Pods-BenchKIFSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2064882AA417CAD19EE2767C /* Set version number */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,6 +457,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "git=$(sh /etc/profile; which git)\ngit_release_version=$(\"$git\" describe --tags --always --abbrev=0)\nnumber_of_commits=$(\"$git\" rev-list master | wc -l | tr -d ' ')\ntarget_plist=\"$TARGET_BUILD_DIR/$INFOPLIST_PATH\"\ndsym_plist=\"$DWARF_DSYM_FOLDER_PATH/$DWARF_DSYM_FILE_NAME/Contents/Info.plist\"\n\nfor plist in \"$target_plist\" \"$dsym_plist\"; do\n  if [ -f \"$plist\" ]; then\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $number_of_commits\" \"$plist\"\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString ${git_release_version#*v}\" \"$plist\"\n  fi\ndone\n";
+		};
+		4FE73AFBCF52F86EF062EE7F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 		73F4CEA4725993995521B08F /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -460,6 +501,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BenchKIF/Pods-BenchKIF-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D592355051D5E28553CF31B2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BenchKIFSwift/Pods-BenchKIFSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F1E3D61394BC9E1237496DEC /* Warn for TODO and FIXME comments */ = {
@@ -573,6 +629,7 @@
 /* Begin XCBuildConfiguration section */
 		3F822F661AE8FA870001ACFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D2BCDB1D83264EBE451B649 /* Pods-BenchKIFSwift.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -596,6 +653,7 @@
 		};
 		3F822F671AE8FA870001ACFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C798EB6D541B0F37025878 /* Pods-BenchKIFSwift.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -834,6 +892,7 @@
 				3F822F671AE8FA870001ACFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EADCD911AC48CD800E041E4 /* Build configuration list for PBXProject "Bench" */ = {
 			isa = XCConfigurationList;
