@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2047D35340F95E491DCCC757 /* libPods-BenchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C995115E505E9BD825293991 /* libPods-BenchTests.a */; };
+		3F22B2CC1AEB14DC00FB68F6 /* KIF+SwiftExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F22B2CB1AEB14DC00FB68F6 /* KIF+SwiftExtension.swift */; };
 		3F822F631AE8FA870001ACFA /* BenchKIFSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F822F621AE8FA870001ACFA /* BenchKIFSwift.swift */; };
 		3FB292931ADFD1BC003B2728 /* MainScreenSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB292921ADFD1BC003B2728 /* MainScreenSpec.m */; };
 		3FB6F09D1ADB189800F38D63 /* ElementFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6F09C1ADB189800F38D63 /* ElementFormatter.m */; };
@@ -55,6 +56,7 @@
 		2EC573117DC09CE6F71418FD /* Pods-BenchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BenchTests/Pods-BenchTests.release.xcconfig"; sourceTree = "<group>"; };
 		37E869D18D5E2EC428EB4DBE /* Pods-BenchKIF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenchKIF.release.xcconfig"; path = "Pods/Target Support Files/Pods-BenchKIF/Pods-BenchKIF.release.xcconfig"; sourceTree = "<group>"; };
 		3F22B2C71AEB148700FB68F6 /* BenchKIFSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BenchKIFSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F22B2CB1AEB14DC00FB68F6 /* KIF+SwiftExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KIF+SwiftExtension.swift"; sourceTree = "<group>"; };
 		3F822F5E1AE8FA870001ACFA /* BenchKIFSwift.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenchKIFSwift.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F822F611AE8FA870001ACFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F822F621AE8FA870001ACFA /* BenchKIFSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchKIFSwift.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				3F822F621AE8FA870001ACFA /* BenchKIFSwift.swift */,
 				3F822F601AE8FA870001ACFA /* Supporting Files */,
 				3F22B2C71AEB148700FB68F6 /* BenchKIFSwift-Bridging-Header.h */,
+				3F22B2CB1AEB14DC00FB68F6 /* KIF+SwiftExtension.swift */,
 			);
 			path = BenchKIFSwift;
 			sourceTree = "<group>";
@@ -556,6 +559,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F22B2CC1AEB14DC00FB68F6 /* KIF+SwiftExtension.swift in Sources */,
 				3F822F631AE8FA870001ACFA /* BenchKIFSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
