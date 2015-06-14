@@ -271,6 +271,7 @@
 		6EADCD8E1AC48CD800E041E4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = mokacoding;
 				TargetAttributes = {

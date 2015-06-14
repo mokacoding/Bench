@@ -31,7 +31,7 @@ class ElementsViewController: UIViewController, UITableViewDataSource {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as UITableViewCell
         cell.textLabel?.text = elementFomatter.formattedElementString(elements[indexPath.row] as [NSObject: AnyObject])
         return cell
     }
@@ -42,7 +42,11 @@ class ElementsViewController: UIViewController, UITableViewDataSource {
         var error: NSError?
         let JSONFilePath = NSBundle.mainBundle().pathForResource("periodic_table", ofType: "json")
         let JSONData = NSData(contentsOfFile: JSONFilePath!)
-        let d = NSJSONSerialization.JSONObjectWithData(JSONData!, options: NSJSONReadingOptions.AllowFragments, error: &error) as! [NSDictionary]
-        return d
+        do {
+            let d = try NSJSONSerialization.JSONObjectWithData(JSONData!, options: NSJSONReadingOptions.AllowFragments) as! [NSDictionary]
+            return d
+        } catch {
+            return []
+        }
     }()
 }
