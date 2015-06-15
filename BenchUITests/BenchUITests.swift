@@ -29,11 +29,12 @@ class BenchUITests: XCTestCase {
     func testShowElements() {
         let app = XCUIApplication()
         app.buttons["show elements"].tap()
-        app.tables.staticTexts["[N] Nitrogen (7)"].swipeUp()
-        app.tables.staticTexts["[Ir] Iridium (77)"].swipeUp()
-        app.tables.staticTexts["[Tl] Thallium (81)"].swipeUp()
-        app.tables.staticTexts["[Uut] Ununtrium (113)"].swipeUp()
 
+        XCTAssertEqual(app.tables.count, 1)
+
+        let table = app.tables.elementAtIndex(0)
+        let expectedNumberOfElements: UInt = 118
+        XCTAssertEqual(table.cells.count, expectedNumberOfElements)
     }
 
 }
