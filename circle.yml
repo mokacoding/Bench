@@ -1,0 +1,8 @@
+machine:
+  xcode:
+    version: "6.3.1"
+
+test:
+  override:
+    - bin/unit-test
+
