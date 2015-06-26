@@ -1,0 +1,10 @@
+#!/bin/bash
+workspace="Bench"
+scheme="Bench"
+
+set -o pipefail && xcrun xcodebuild \
+  -workspace "$workspace.xcworkspace" \
+  -scheme "$scheme" \
+  -sdk iphonesimulator \
+  -destination "platform=iOS Simulator,name=iPhone 6,OS=8.3" \
+  clean test | xcpretty --test --color
