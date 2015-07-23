@@ -32,7 +32,7 @@ class BenchUITests: XCTestCase {
 
         XCTAssertEqual(app.tables.count, 1)
 
-        let table = app.tables.elementAtIndex(0)
+        let table = app.tables.elementBoundByIndex(0)
         let expectedNumberOfElements: UInt = 118
         XCTAssertEqual(table.cells.count, expectedNumberOfElements)
     }
