@@ -23,6 +23,12 @@ class BenchUITests: XCTestCase {
         app.alerts["Hello"].collectionViews.buttons["Dismiss"].tap()
     }
 
+    func testUIChange() {
+        let app = XCUIApplication()
+        self.expectationForPredicate(NSPredicate(format: "label BEGINSWITH 'Ciao'"), evaluatedWithObject: app.buttons.elementMatchingType(XCUIElementType.Button, identifier: "the button"), handler: nil)
+        self.waitForExpectationsWithTimeout(20, handler: nil)
+    }
+
     /**
      *  When I tap the "show elements" button, I see a list of elements.
      */
