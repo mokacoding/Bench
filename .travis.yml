@@ -1,7 +1,5 @@
 language: objective-c
 
-install: true
-
 before_script:
   - export LANG=en_US.UTF-8
 
