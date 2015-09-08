@@ -2,9 +2,6 @@ machine:
   # Circle by default builds on Ubuntu, with this we specify an OS X machine
   xcode:
     version: "6.4"
-  # We need to specify the version of ruby because circle uses 1.9.3 by default... Weird
-  ruby:
-    version: 2.2.2
 
 test:
   override:
