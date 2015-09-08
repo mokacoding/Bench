@@ -4,5 +4,5 @@ machine:
 
 test:
   override:
-    - bin/unit-test
+    - bin/unit-tests
 
