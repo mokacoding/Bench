@@ -22,4 +22,3 @@
 #import "EXPMatchers+postNotification.h"
 #import "EXPMatchers+beginWith.h"
 #import "EXPMatchers+endWith.h"
-#import "EXPMatchers+match.h"
