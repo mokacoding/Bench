@@ -1,7 +1,7 @@
 #!/bin/bash
 
 workspace="Bench"
-scheme="Bench"
+scheme="BenchSwiftTests"
 
 echo "Script might need your password to switch to Xcode-beta SDK"
 sudo xcode-select -switch /Applications/Xcode-beta.app/Contents/Developer

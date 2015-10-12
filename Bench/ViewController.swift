@@ -19,6 +19,17 @@ class ViewController: UIViewController {
         setColors()
         sayHelloButton.addTarget(self, action: "sayHello", forControlEvents:
         UIControlEvents.TouchUpInside)
+        sayHelloButton.accessibilityIdentifier = "the button"
+    }
+
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+
+        let seconds: Double = 10
+        let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(seconds * Double(NSEC_PER_SEC)))
+        dispatch_after(delayTime, dispatch_get_main_queue()) { () -> Void in
+            self.sayHelloButton.setTitle("Ciao", forState: UIControlState.Normal)
+        }
     }
     
     func setColors() {

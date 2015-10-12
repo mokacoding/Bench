@@ -1,0 +1,8 @@
+machine:
+  # Circle by default builds on Ubuntu, with this we specify an OS X machine
+  xcode:
+    version: "6.4"
+
+test:
+  override:
+    - ./bin/unit-tests
