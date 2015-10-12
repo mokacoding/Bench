@@ -328,6 +328,7 @@
 				6EADCDA81AC48CD800E041E4 /* Frameworks */,
 				6EADCDA91AC48CD800E041E4 /* Resources */,
 				73F4CEA4725993995521B08F /* Copy Pods Resources */,
+				67EAF8D1936E494936CC1CBE /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -348,6 +349,7 @@
 				6EADCE0E1AC5425700E041E4 /* Frameworks */,
 				6EADCE0F1AC5425700E041E4 /* Resources */,
 				BE9E2EE6DDC9906D5517FEEE /* Copy Pods Resources */,
+				C5BAB56FA7D0000C8046A34C /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -484,6 +486,21 @@
 			shellPath = /bin/sh;
 			shellScript = "git=$(sh /etc/profile; which git)\ngit_release_version=$(\"$git\" describe --tags --always --abbrev=0)\nnumber_of_commits=$(\"$git\" rev-list master | wc -l | tr -d ' ')\ntarget_plist=\"$TARGET_BUILD_DIR/$INFOPLIST_PATH\"\ndsym_plist=\"$DWARF_DSYM_FOLDER_PATH/$DWARF_DSYM_FILE_NAME/Contents/Info.plist\"\n\nfor plist in \"$target_plist\" \"$dsym_plist\"; do\n  if [ -f \"$plist\" ]; then\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $number_of_commits\" \"$plist\"\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString ${git_release_version#*v}\" \"$plist\"\n  fi\ndone\n";
 		};
+		67EAF8D1936E494936CC1CBE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BenchTests/Pods-BenchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		73F4CEA4725993995521B08F /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -512,6 +529,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BenchKIF/Pods-BenchKIF-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5BAB56FA7D0000C8046A34C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BenchKIF/Pods-BenchKIF-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F1E3D61394BC9E1237496DEC /* Warn for TODO and FIXME comments */ = {
@@ -939,6 +971,7 @@
 				3F8752B71B9D5948000CE460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EADCD911AC48CD800E041E4 /* Build configuration list for PBXProject "Bench" */ = {
 			isa = XCConfigurationList;

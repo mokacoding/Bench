@@ -1,3 +1,7 @@
-KIF_FRAMEWORK_SEARCH_PATHS = $(PLATFORM_DIR)/Developer/Library/Frameworks $(inherited) "$(SDKROOT)/Developer/Library/Frameworks" "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-KIF_OTHER_CFLAGS = -DKIF_XCTEST
-KIF_OTHER_LDFLAGS = -framework "CoreGraphics" -framework "IOKit" -framework "XCTest"
+FRAMEWORK_SEARCH_PATHS = $(inherited)  "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/KIF" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Expecta" "${PODS_ROOT}/Headers/Public/KIF" "${PODS_ROOT}/Headers/Public/Specta"
+OTHER_CFLAGS = -DKIF_XCTEST
+OTHER_LDFLAGS = -framework "CoreGraphics" -framework "IOKit" -framework "XCTest"
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES
