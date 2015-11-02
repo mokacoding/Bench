@@ -2,6 +2,10 @@ machine:
   xcode:
     version: "7.0"
 
+dependencies:
+  override:
+    - bundle install
+
 test:
   override:
     - ./bin/unit-tests
