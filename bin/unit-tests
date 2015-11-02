@@ -3,14 +3,9 @@
 workspace="Bench"
 scheme="Bench"
 
-echo "Script might need your password to switch to Xcode-beta SDK"
-sudo xcode-select -switch /Applications/Xcode-beta.app/Contents/Developer
-
 set -o pipefail && xcrun --sdk 'iphonesimulator9.0' xcodebuild \
   -workspace "$workspace.xcworkspace" \
   -scheme "$scheme" \
   -destination 'platform=iOS Simulator,name=iPhone 6' \
   -sdk iphonesimulator \
-  test | xcpretty --color
-
-sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
+  test | bundle exec xcpretty --color
